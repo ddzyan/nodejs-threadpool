@@ -1,4 +1,4 @@
-const { Worker, threadId } = require('worker_threads');
+const { Worker } = require('worker_threads');
 const path = require('path');
 const vm = require('vm');
 const { EventEmitter } = require('events');
